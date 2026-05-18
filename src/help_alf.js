@@ -1,5 +1,8 @@
-// StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
-	//
+// help_alf.js
+function HelpAlf() {}
+
+HelpAlf.prototype.findSpaceship = function(map) {
+    if (map === '') {
+        return 'Spaceship lost forever.';
+    }
 };
