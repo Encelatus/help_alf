@@ -14,4 +14,8 @@ describe("Help ALF", function () {
   it("should find X in a single-row map", function () {
     expect(finder.findSpaceship(".X.")).toEqual([1, 0]);
   });
+  it("should find X in a multi-row map with bottom-left as [0, 0]", function () {
+    var map = "..\n..\nX.\n..";
+    expect(finder.findSpaceship(map)).toEqual([0, 1]);
+  });
 });
