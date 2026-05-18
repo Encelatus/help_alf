@@ -11,4 +11,7 @@ describe("Help ALF", function () {
       "Spaceship lost forever.",
     );
   });
+  it("should find X in a single-row map", function () {
+    expect(finder.findSpaceship(".X.")).toEqual([1, 0]);
+  });
 });
