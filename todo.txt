@@ -1,5 +1,5 @@
 # Todo
-- Return "Spaceship lost forever." for an empty map string
-- Return "Spaceship lost forever." when X is not in the map
-- Find X in a single-row map
-- Find X in a multi-row map, return correct [x, y] with bottom-left as [0, 0]
+- Return "Spaceship lost forever." for an empty map string - done
+- Return "Spaceship lost forever." when X is not in the map - done 
+- Find X in a single-row map - done
+- Find X in a multi-row map, return correct [x, y] with bottom-left as [0, 0] - done
