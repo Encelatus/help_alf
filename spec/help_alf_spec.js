@@ -1,9 +1,9 @@
-describe('String Calculator', function() {
-	beforeEach(function() {
-		calculator = new StringCalculator();
-	});
+describe('Help ALF', function() {
+    beforeEach(function() {
+        finder = new HelpAlf();
+    });
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
-	});
+    it('should return "Spaceship lost forever." for an empty map', function() {
+        expect(finder.findSpaceship('')).toEqual('Spaceship lost forever.');
+    });
 });
